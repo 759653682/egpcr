@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.workbuddy/
+
+# Generated model artifacts
+custom_dataset_artifactsV2/*.pth
+custom_dataset_artifactsV2/*.joblib
+
+# Optional: uncomment if your datasets should not be committed
+# data/*.txt
